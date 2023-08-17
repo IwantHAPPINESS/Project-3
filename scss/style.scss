@@ -1,0 +1,400 @@
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,*:before,*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,:active {
+  outline: none;
+}
+a:focus,a:active {
+  outline: none;
+}
+
+nav,footer,header,aside {
+  display: block;
+}
+
+html,body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,button,textarea {
+  font-family:inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;background: none;
+}
+button::-moz-focus-inner {
+  padding:0;border:0;
+}
+a, a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-size:inherit;font-weight: 400;
+}
+/*--------------------*/
+// Шрифт
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+// Миксины
+@mixin defoutStck {
+  width: 24px;
+  height: 2px;
+  background: #9093A6;
+  margin: 0 0 9px ;
+}
+@mixin bookmark-txt {
+  position: relative;
+  top: 10px;
+}
+@mixin text-bookmark{
+	position: relative;
+	top: 28px;
+	width: 182px;
+	left: 16px;
+	font-family: Martel Sans;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 24px; /* 150% */
+	letter-spacing: 0.5px;
+}
+body {
+  font-family: Poppins , sans-serif;
+}
+
+.conteiner {
+  /* .conteiner__header */
+  &__header {}
+}
+.header {
+  /* .header__line */
+  &__line {
+    display: flex;
+    justify-content: space-between;
+    min-width: 1440px;
+    height: 72px;
+    border-bottom: 1px solid #D4D7E5;
+  }
+}
+.logo {
+  /* .logo__header__button */
+  &__header__button {
+    margin: 0 814.98px 0 91.98px;
+  }
+}
+.button {}
+.menu {
+  /* .menu__header */
+  &__header {
+    display: flex;
+    justify-content:center;
+    width: 257px;
+    height: 48px;
+    margin: 12px 0 0 1091px;
+    position: absolute;
+  }
+}
+.person {
+  /* .person__svg__button */
+  &__svg__button {}
+  /* .person__svg */
+  &__svg {
+    width: 24px;
+    height: 24px;
+  }
+}
+.person-svg {
+  &__button {}
+  /* .person-svg__text */
+  &__text {
+    color: #D4D5D9;
+    position: relative;
+    margin: 16px 48px 0 0;
+    font-family: 'Martel sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+  }
+}
+.cart {
+  /* .cart__svg__button */
+  &__svg__button {}
+  /* .cart__svg */
+  &__svg {
+    width: 24px;
+    height: 24px;
+  }
+}
+.cart-svg {
+  /* .cart-svg__text */
+  &__text {
+    color: #D4D5D9;
+    position: relative;
+    margin: 16px 48px 0 0;
+    font-family: Martel Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+  }
+}
+.burger {
+  /* .burger__menu */
+  &__menu {
+    padding: 12px;
+    width:48px;
+    border-radius: 25px;
+    box-shadow: 1px 3px 16px #EDF3F4;
+    box-sizing: border-box;
+  }
+  /* .burger__menu__stick */
+  &__menu__stick {
+    @include defoutStck;
+  }
+}
+.header {
+<<<<<<< HEAD
+  /* .header__prime__container */
+  &__prime__container {
+    margin: 120px 0 0 94px;
+  }
+  /* .header__prime__text-container */
+  &__prime__text-container {
+    width: 534px;
+    margin: 0 0 88px;
+  }
+  /* .header__prime__text */
+  &__prime__text {
+    color: #3F4255;
+    font-family: Poppins;
+    font-size: 58px;
+    font-weight: 300;
+    line-height: 64px; /* 110.345% */
+    letter-spacing: 2.9px;
+  }
+  /* .header__prime__button__container */
+  &__prime__button__container {}
+  /* .header__prime__button */
+  &__prime__button {
+    width: 117px;
+    height: 72px;
+    padding: 16px 14px;
+    margin: 0 24px 0 0;
+    border-radius: 4px;
+    border: 2px solid #FFE145;
+  }
+=======
+	/* .header__main__container */
+	&__main__container {
+		display: flex;
+	}
+	/* .header__prime__container */
+	&__prime__container {
+		margin: 120px 0 0 94px;
+	}
+	/* .header__prime__text-container */
+	&__prime__text-container {
+		width: 534px;
+		margin: 0 0 88px;
+	}
+	/* .header__prime__text */
+	&__prime__text {
+		color:  #3F4255;
+		font-family: Poppins;
+		font-size: 58px;
+		font-weight: 300;
+		line-height: 64px; /* 110.345% */
+		letter-spacing: 2.9px;
+	}
+	/* .header__prime__button__container */
+	&__prime__button__container {
+	}
+	/* .header__prime__button */
+	&__prime__button {
+		width: 117px;
+		height: 72px;
+		padding: 16px 14px;
+		margin: 0 24px 0 0;
+		border-radius: 4px;
+		border: 2px solid  #FFE145;
+	}
+>>>>>>> 07796f1 (Fou commit)
+}
+.prime {
+  /* .prime__button__text-big */
+  &__button__text-big {
+    color: #3F4255;
+    font-family: Martel Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px; /* 125% */
+    letter-spacing: 0.5px;
+  }
+  /* .prime__button__text */
+  &__button__text {
+    color: #3F4255;
+    font-family: Martel Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+  }
+}
+.header {
+<<<<<<< HEAD
+  /* .header__img__block */
+  &__img__block {
+    position: relative;
+    left: 541px;
+    bottom: 398px;
+  }
+  /* .header__img-rucolo */
+  &__img-rucolo {
+    position: relative;
+    top:427px;
+  }
+  /* .header__img-plate */
+  &__img-plate {
+    position: relative;
+    left: -20px;
+  }
+  /* .header__img-arrow */
+  &__img-arrow {
+    position: relative;
+    top: 627px;
+    right: 168px;
+  }
+  /* .header__img__text */
+  &__img__text {
+    color: #313030;
+    font-family: Martel Sans;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    margin: 0 0 0 654px;
+    position: absolute;
+  }
+}
+
+.heder {
+  /* .heder__bookmark */
+  &__bookmark {}
+  /* .heder__bookmark__container */
+  &__bookmark__container {
+    display: flex;
+  }
+  /* .heder__bookmark__img-clock */
+  &__bookmark__img-clock {}
+  /* .heder__bookmark__text-clock */
+  &__bookmark__text-clock {
+    @include bookmark-txt ;
+  }
+  /* .heder__bookmark__img-delivery */
+  &__bookmark__img-delivery {}
+  /* .heder__bookmark__text-deelivery */
+  &__bookmark__text-deelivery {}
+  /* .heder__bookmark__img-paris */
+  &__bookmark__img-paris {}
+  /* .heder__bookmark__text-paris */
+  &__bookmark__text-paris {}
+}
+=======
+	/* .header__img__block */
+	&__img__block {
+		
+	}
+	/* .header__img-rucolo */
+	&__img-rucolo {
+		position: relative;
+		top:427px;
+	}
+	/* .header__img-plate */
+	&__img-plate {
+		position: relative;
+		left: -20px;
+	}
+	/* .header__img-arrow */
+	&__img-arrow {
+		position: relative;
+		top: 627px;
+		right: 168px;
+	}
+	/* .header__img__text */
+	&__img__text {
+		color:  #313030;
+		font-family: Martel Sans;
+		font-size: 16px;
+		font-weight: 300;
+		line-height: 24px; 
+		letter-spacing: 0.5px;
+		margin: 0 0 0 654px;
+		position: absolute;
+	}
+}
+
+.heder {
+	/* .heder__bookmark */
+	&__bookmark {
+	}
+	/* .heder__bookmark__container */
+	&__bookmark__container {
+		box-shadow: 0 0 28px #dfe9f5;
+		display: flex;
+		max-width:872px;
+		height: 104px;
+		margin: -50px 0 0 0;
+	}
+	/* .heder__bookmark__img-clock */
+	&__bookmark__img-clock {
+		width: 48px;
+	}
+	/* .heder__bookmark__text-clock */
+	&__bookmark__text-clock {
+		@include  text-bookmark ;
+	}
+	/* .heder__bookmark__img-delivery */
+	&__bookmark__img-delivery {
+		width: 48px;
+	}
+	/* .heder__bookmark__text-deelivery */
+	&__bookmark__text-deelivery {
+		@include  text-bookmark ;
+	}
+	/* .heder__bookmark__img-paris */
+	&__bookmark__img-paris {
+		width: 48px;
+	}
+	/* .heder__bookmark__text-paris */
+	&__bookmark__text-paris {
+		@include  text-bookmark ;
+	}
+}
+
+>>>>>>> 07796f1 (Fou commit)
