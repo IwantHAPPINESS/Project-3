@@ -76,7 +76,6 @@ h1,h2,h3,h4,h5,h6 {
 @mixin text-bookmark{
 	position: relative;
 	top: 28px;
-	width: 182px;
 	left: 16px;
 	font-family: Martel Sans;
 	font-size: 16px;
@@ -180,7 +179,6 @@ body {
   }
 }
 .header {
-<<<<<<< HEAD
   /* .header__prime__container */
   &__prime__container {
     margin: 120px 0 0 94px;
@@ -210,7 +208,6 @@ body {
     border-radius: 4px;
     border: 2px solid #FFE145;
   }
-=======
 	/* .header__main__container */
 	&__main__container {
 		display: flex;
@@ -245,7 +242,6 @@ body {
 		border-radius: 4px;
 		border: 2px solid  #FFE145;
 	}
->>>>>>> 07796f1 (Fou commit)
 }
 .prime {
   /* .prime__button__text-big */
@@ -267,12 +263,9 @@ body {
   }
 }
 .header {
-<<<<<<< HEAD
   /* .header__img__block */
   &__img__block {
     position: relative;
-    left: 541px;
-    bottom: 398px;
   }
   /* .header__img-rucolo */
   &__img-rucolo {
@@ -304,36 +297,14 @@ body {
 }
 
 .heder {
-  /* .heder__bookmark */
-  &__bookmark {}
-  /* .heder__bookmark__container */
-  &__bookmark__container {
-    display: flex;
-  }
-  /* .heder__bookmark__img-clock */
-  &__bookmark__img-clock {}
-  /* .heder__bookmark__text-clock */
-  &__bookmark__text-clock {
-    @include bookmark-txt ;
-  }
-  /* .heder__bookmark__img-delivery */
-  &__bookmark__img-delivery {}
-  /* .heder__bookmark__text-deelivery */
-  &__bookmark__text-deelivery {}
-  /* .heder__bookmark__img-paris */
-  &__bookmark__img-paris {}
-  /* .heder__bookmark__text-paris */
-  &__bookmark__text-paris {}
-}
-=======
 	/* .header__img__block */
 	&__img__block {
-		
 	}
 	/* .header__img-rucolo */
 	&__img-rucolo {
 		position: relative;
 		top:427px;
+    left: -99px ;
 	}
 	/* .header__img-plate */
 	&__img-plate {
@@ -374,6 +345,7 @@ body {
 	/* .heder__bookmark__img-clock */
 	&__bookmark__img-clock {
 		width: 48px;
+    margin: 28px 16px 30px 93.99px;
 	}
 	/* .heder__bookmark__text-clock */
 	&__bookmark__text-clock {
@@ -382,6 +354,7 @@ body {
 	/* .heder__bookmark__img-delivery */
 	&__bookmark__img-delivery {
 		width: 48px;
+    margin: 28px 16px 28px 46px;
 	}
 	/* .heder__bookmark__text-deelivery */
 	&__bookmark__text-deelivery {
@@ -390,6 +363,7 @@ body {
 	/* .heder__bookmark__img-paris */
 	&__bookmark__img-paris {
 		width: 48px;
+    margin: 28px 16px 28px 39px;
 	}
 	/* .heder__bookmark__text-paris */
 	&__bookmark__text-paris {
@@ -397,4 +371,3 @@ body {
 	}
 }
 
->>>>>>> 07796f1 (Fou commit)
