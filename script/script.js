@@ -1,4 +1,4 @@
-/*Активация бургер-кнопки и сайд-бара, эфект для кнопки*/
+/*Активация бургер-кнопки , сайд-бара и overlay, эфект для кнопки*/
 let burgerMenu = document.querySelector('.burger__menu');
 
 burgerMenu.addEventListener('click',burgerActive);
