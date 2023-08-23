@@ -57,7 +57,7 @@ img {
 }
 
 h1,h2,h3,h4,h5,h6 {
-  font-size:inherit;font-weight: 400;
+  /*font-size:inherit;*/font-weight: 400;
 }
 /*--------------------*/
 // Шрифт
@@ -468,6 +468,7 @@ body {
 .restaurants {
   /* .restaurants__blokc */
   &__blokc {
+    margin: 0 0 72px;
   }
   /* .restaurants__container-h1 */
   &__container-h1 {
@@ -540,7 +541,69 @@ body {
     z-index: 1;
   }
 }
-
+.form {
+  /* .form__container */
+  &__container {
+    background-color: #F2F4FA;
+    width: 1440px;
+    height: 297px;
+    display: flex;
+  }
+  /* .form__nearest__text-block */
+  &__nearest__text-block {
+    margin: 80px 159px 0 172px;
+  }
+  /* .form__nearest-h1 */
+  &__nearest-h1 {
+    margin: 0 0 24px;
+    color: #3F4255;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 64px; /* 177.778% */
+    letter-spacing: 2.88px;
+  }
+  /* .form__nearest-p */
+  &__nearest-p {
+    color: #3F4255;
+    font-family: Martel Sans;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.5px;
+  }
+  /* .form__input-container */
+  &__input-container {
+    display: flex;
+    margin: 113px 0 0 0;
+  }
+  /* .form__input */
+  &__input {
+    width: 336px;
+    height: 72px;
+    padding: 24px 0 24px 24px;
+    margin: 0 4px 0 0;
+    color:  #9093A6;
+    font-family: Martel Sans;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.5px;
+    box-shadow: 0px 8px 40px 0px rgba(0, 0, 0, 0.08);
+  }
+  /* .form__input__button-send */
+  &__input__button-send {
+    color: #B79C10;
+    height: 72px;
+    padding: 28px 24px;
+    border-radius: 4px;
+    background: #FFE145;
+    font-family: Martel Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px; /* 125% */
+    letter-spacing: 0.5px;
+  }
+}
 /*overlay*/
 .overlay-active {
   position: fixed;
