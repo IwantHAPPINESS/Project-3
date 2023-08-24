@@ -301,9 +301,8 @@ body {
   }
   /* .header__img-arrow */
   &__img-arrow {
-    position: relative;
-    top: 610px;
-    right: 230px;
+    position: absolute;
+    margin: 610px 0 0 -225px;
   }
   /* .header__img__text */
   &__img__text {
@@ -580,8 +579,9 @@ body {
   &__input {
     width: 336px;
     height: 72px;
-    padding: 24px 0 24px 24px;
+    padding: 24px 0 24px 48px;
     margin: 0 4px 0 0;
+    border-radius: 5px;
     color:  #9093A6;
     font-family: Martel Sans;
     font-size: 16px;
@@ -602,6 +602,13 @@ body {
     font-weight: 700;
     line-height: 20px; /* 125% */
     letter-spacing: 0.5px;
+  }
+  .fa_gps {
+    margin: 24px 0 0 16px;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background: url('/img/icon/location.png') no-repeat;
   }
 }
 /*overlay*/
