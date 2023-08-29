@@ -632,6 +632,58 @@ body {
   background: url("/img/icon/location.png") no-repeat;
 }
 
+.specialites {
+  /* .specialites__container */
+  /* .specialites__h1-container */
+  /* .specialites__h1 */
+  /* .specialites__button-h1 */
+  /* .specialites__container-icon */
+  /* .specialites__arrow-left */
+  /* .specialites__card */
+  /* .specialites__img */
+  /* .specialites__arrow-ryght */
+}
+.specialites__h1-container {
+  display: flex;
+}
+.specialites__container-icon {
+  display: flex;
+  margin: 48px 0 0 92px;
+}
+.specialites__arrow-left {
+  margin: 92px 0 0 72px;
+}
+.specialites__card {
+  display: flex;
+  width: 136px;
+  height: 136px;
+  padding: 24px 8px;
+  margin: 0 24px 0 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  box-shadow: 0px 2px 16px 0px rgba(60, 62, 74, 0.08);
+}
+.specialites__p {
+  margin: 16px 0 0 0;
+  color: #313030;
+  text-align: center;
+  /* Text/Defoult */
+  font-family: Martel Sans;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.5px;
+}
+.specialites__arrow-ryght {
+  margin: 92px 0 0 1323px;
+}
+
+.usp {
+  background-image: url("img/food/bg.svg");
+}
+
 /*overlay*/
 .overlay-active {
   position: fixed;
