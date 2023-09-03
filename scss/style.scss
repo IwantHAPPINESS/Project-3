@@ -747,6 +747,66 @@ body {
     margin: 207px 0 0 -25px;
   }
 }
+
+.Map {
+  margin: 72px 0 72px 91px ;
+  /* .Map__container_img-map */
+  &__container_img-map {
+  }
+  /* .Map__img */
+  &__img {
+  }
+}
+.Instagram {
+
+  margin: 0 0 72px 92px;
+  /* .Instagram__title */
+  &__title {
+    width: 1250px;
+
+    color: #9093A6;
+
+    /* Title/1 */
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 64px;
+    letter-spacing: 2.88px;
+  }
+  /* .Instagram__hashtag */
+  &__hashtag {
+    color: #313030 ;
+
+    /* Title/1 */
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 64px; /* 177.778% */
+    letter-spacing: 2.88px;
+  }
+  /* .Instagram__img-block */
+  &__img-block {
+  }
+  /* .Instagram__img */
+  &__img {
+    margin: 0 24px 0 0  ;
+  }
+  /* .Instagram__kitchen-img */
+  &__kitchen-img {
+  }
+  /* .Instagram__duble-human-img */
+  &__duble-human-img {
+  }
+  /* .Instagram__works-img */
+  &__works-img {
+  }
+  /* .Instagram__Semi-finished-products-img */
+  &__Semi-finished-products-img {
+  }
+}
+.Footer {
+  width: 1440px;
+  height: 437px;
+  background: #3F4255;
+}
 /*overlay*/
 .overlay-active {
   position: fixed;
