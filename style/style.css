@@ -1,6 +1,7 @@
 @charset "UTF-8";
 /*Обнуление*/
 @import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -681,7 +682,77 @@ body {
 }
 
 .usp {
-  background-image: url("img/food/bg.svg");
+  width: 1440px;
+  height: 284px;
+  background-image: url("/img/food/bg.svg");
+  display: -webkit-inline-box;
+  margin: 72px 0 0 0;
+  padding: 0 0 0 345px;
+  /* .usp__block__component */
+  /* .usp__circle */
+  /* .usp__empty-circle */
+  /* .usp__number */
+  /* .usp__p */
+  /* .usp__p__kitchen */
+  /* .usp__p__specialties */
+  /* .usp__p__restaurants */
+  /* .usp__p__transport-costs */
+}
+.usp__block__component {
+  width: 150px;
+  margin: 0 65px 0 0;
+}
+.usp__circle {
+  width: 127px;
+  height: 127px;
+  background-color: #FFE145;
+  border-radius: 100px;
+  position: absolute;
+  z-index: 0;
+  margin: 79px 0 0 0;
+  padding: 13px 0 0 0;
+}
+.usp__empty-circle {
+  width: 127px;
+  height: 127px;
+  border: 1px solid #B79C10;
+  border-radius: 100px;
+  position: absolute;
+  margin: 56px 0 0 0;
+  z-index: 1;
+}
+.usp__number {
+  color: #3F4255;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px; /* 110.345% */
+  letter-spacing: 2.9px;
+}
+.usp__p {
+  width: 206px;
+  color: #3F4255;
+  margin: 207px 0 0 0;
+  /* Title/2 */
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px; /* 133.333% */
+}
+.usp__p__kitchen {
+  padding: 0 0 0 20px;
+}
+.usp__p__specialties {
+  padding: 0 0 0 0px;
+}
+.usp__p__restaurants {
+  margin: 207px -12px 0 -6px;
+}
+.usp__p__transport-costs {
+  margin: 207px 0 0 -25px;
 }
 
 /*overlay*/
