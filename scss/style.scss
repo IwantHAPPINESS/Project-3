@@ -784,6 +784,8 @@ body {
   }
   /* .Instagram__img-block */
   &__img-block {
+    display: flex;
+    flex-wrap: nowrap;
   }
   /* .Instagram__img */
   &__img {
@@ -803,9 +805,167 @@ body {
   }
 }
 .Footer {
+
   width: 1440px;
   height: 437px;
   background: #3F4255;
+  padding: 48px 0 0 92px;
+
+  /* .Footer__footerInfo */
+  &__info {
+    display: flex;
+  }
+  /* .Footer__downloadLinks */
+  &__downloadLinks {
+  }
+  /* .Footer__logo */
+  &__logo {
+    margin: 0 0 48px 0;
+  }
+  /* .Footer__line-links */
+  &__line-links {
+    width: 296px;
+    height: 1px;
+    background: #D4D7E5;
+    margin: 0 0 48px 0 ;
+  }
+  /* .Footer__play-market-links */
+  &__play-market-links {
+  }
+  /* .Footer__play-market-img */
+  &__play-market-img {
+  }
+  /* .Footer__app-store-links */
+  &__app-store-links {
+  }
+  /* .Footer__app-store-img */
+  &__app-store-img {
+  }
+  /* .Footer__resources */
+  &__resources {
+    display: flex;
+  }
+  /* .Footer__about-us */
+  &__about-us {
+    margin:  0 0 0 184px;
+  }
+  /* .Footer__about-us-h1 */
+  &__about-us-h1 {
+    margin: 0 0 24px 0 ;
+    color:  #FFF;
+
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px; /* 133.333% */
+  }
+  /* .Footer__about-us-list */
+  &__about-us-list {
+  }
+  /* .Footer__about-us-li */
+  &__about-us-li {
+    margin: 0 0 16px 0;
+
+    color: #D4D7E5;
+
+    font-family: Martel Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px; /* 125% */
+    letter-spacing: 0.5px;
+  }
+  /* .Footer__get-help */
+  &__get-help {
+    margin: 0 0 0 83px;
+  }
+  /* .Footer__get-help-h1 */
+  &__get-help-h1 {
+    margin: 0 0 24px 0;
+    color:  #FFF;
+
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px; /* 133.333% */
+  }
+  /* .Footer__get-help-ul */
+  &__get-help-ul {
+  }
+  /* .Footer__get-help-li */
+  &__get-help-li {
+    margin: 0 0 16px 0;
+    color: #D4D7E5;
+
+    font-family: Martel Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px; /* 125% */
+    letter-spacing: 0.5px;
+  }
+  /* .Footer__contact-us */
+  &__contact-us {
+    margin: 0 0 0 90px ;
+  }
+  /* .Footer__contact-us-h1 */
+  &__contact-us-h1 {
+    margin: 0 0 24px 0;
+    color: #FFF;
+
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px; /* 133.333% */
+  }
+  /* .Footer__contact-us-ul */
+  &__contact-us-ul {
+  }
+  /* .Footer__contack-us-li */
+  &__contack-us-li {
+    margin: 0 0 16px 0;
+    color:  #D4D7E5;
+
+    font-family: Martel Sans;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.5px;
+  }
+ /* .Footer__corporation */
+  &__corporation {
+    margin: 97px 0 0 0 ;
+    display: flex;
+  }
+  /* .Footer__insta-img */
+  &__insta-img {
+  }
+  /* .Footer__twitter-img */
+  &__twitter-img {
+    margin: 0 0 0 24px;
+  }
+  /* .Footer__facebook-img */
+  &__facebook-img {
+    margin: 0 773px 0 24px;
+  }
+  /* .Footer__copyright */
+  &__copyright {
+  }
+  /* .Footer__copyright-a-bold */
+  &__copyright-a-bold {
+    margin: 0 60px 0 0  ;
+    color: #FFF;
+
+    font-family: Martel Sans;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 16px; /* 133.333% */
+  }
+  /* .Footer__copyright-a */
+  &__copyright-a {
+    margin: 0  0 0 -6px;
+    color:  #D4D7E5 ;
+
+    font-family: Martel Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px; /* 133.333% */
+  }
 }
 /*overlay*/
 .overlay-active {
